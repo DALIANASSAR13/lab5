@@ -1,12 +1,11 @@
 name:calculator.py
+
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]
   pull_request:
-    branches:
-      - main
-
+    branches:["main"]
+  
 jobs:
   test:
     runs-on:ubuntu_lateast
