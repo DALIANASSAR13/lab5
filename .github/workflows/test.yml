@@ -1,5 +1,4 @@
 name:calculator.py
-
 on:
   push:
     branches: [ "main" ]
